@@ -742,7 +742,6 @@ section {
 .question-person {
   margin-top: 60px;
 }
-
 .background-circle {
   width: 1030px;
   height: 1030px;
@@ -787,8 +786,7 @@ section {
   border-radius: 23px;
   background: #F5F5FF;
 }
-
-.questions .faq-list a {
+.questions .faq-list span {
   display: block;
   position: relative;
   padding: 30px 35px;
@@ -801,8 +799,7 @@ section {
   color: #402B2B;
   background: white;
 }
-
-.questions .faq-list .icon-show, .questions .faq-list .icon-close {
+.questions .faq-list .icon-close {
   font-size: 24px;
   position: absolute;
   right: 30px;
@@ -824,12 +821,12 @@ section {
   color: #402B2B;
 }
 
-.questions .faq-list a.collapsed {
+.questions .faq-list span.collapsed {
   color: #37517e;
   transition: 0.3s;
 }
 
-.questions .faq-list .list-item.collapsed a {
+.questions .faq-list .list-item.collapsed span {
   box-shadow: none;
 }
 
@@ -902,6 +899,7 @@ section {
   padding-left: 50px;
   padding-right: 50px;
 }
+
 .get-started-btn.red {
   background-color: #F01F35;
 }
@@ -972,7 +970,6 @@ section {
   background: #fff;
   margin: 120px 20px 40px;
 }
-
 .contact .form-control {
   border: 1px solid #9595C9;
   box-sizing: border-box;
@@ -980,28 +977,23 @@ section {
   padding: 18px 38px;
   transition: 250ms all ease-out;
 }
-
 .contact .form-control:focus {
   border: 2px solid #9595C9;
   padding: 17px 37px;
   box-shadow: 0px 20px 40px rgba(149, 149, 201, 0.2);
   border-radius: 10px
 }
-
 .contact .form-label {
   margin-bottom: 1rem;
 }
-
 .contact .get-started-btn {
   text-transform: uppercase;
   font-weight: 500;
   letter-spacing: 0;
 }
-
 .contact .form-check-label {
   color: #626780;
 }
-
 .contact .form-check-link {
   text-decoration: none;
   color: #F01F35;
@@ -1018,28 +1010,23 @@ section {
   clip-path: circle(100% at 50% 73vw);
   color: white;
 }
-
 #footer .footer-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.5em;
 }
-
 #footer .footer-list {
   list-style: none;
   padding: 0;
 }
-
 #footer .footer-list a {
   text-decoration: none;
   color: white;
   line-height: 1.5em;
 }
-
 #footer .copy {
   font-size: 16px;
 }
-
 #footer .footer-icon {
   font-size: 21px;
   background: white;
@@ -1051,8 +1038,8 @@ section {
   justify-content: center;
   align-items: center;
   margin-left: 31px;
+  text-decoration: none;
 }
-
 #footer .footer-logo {
   font-size: 22px;
   font-weight: 300;
